@@ -7,7 +7,7 @@ from models import *
 from utility import *
 from decouple import config
 
-SECRET_KEY=config("SECRET_KEY")
+SECRET_KEY="7ff9b67b4b584ab0be8422b0fc5ff279dfc2011ef424655bee89401a9b6f6a04"
 
 o2auth = OAuth2PasswordBearer(tokenUrl="token")
 
